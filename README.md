@@ -1,7 +1,7 @@
 <p>
   METAS: 
-    -criar as propriedades do CreateUserDTO para fazer funcionar direitinho.(Class validator, decorators da openAPI).
-    -colocar o uuid no projeto do usuario, quando for cria-lo.  
+    <br>-criar as propriedades do CreateUserDTO para fazer funcionar direitinho.(Class validator, decorators da openAPI).
+    <br>-colocar o uuid no projeto do usuario, quando for cria-lo.  
 </p>
 
 <p align="center">
