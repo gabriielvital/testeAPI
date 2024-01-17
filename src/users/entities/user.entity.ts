@@ -1,9 +1,7 @@
 export class User {
-  id: number;
+  uuid: number;
 
-  firstName: string;
+  name: string;
 
-  lastName: string;
-
-  isActive: boolean;
+  email: string;
 }

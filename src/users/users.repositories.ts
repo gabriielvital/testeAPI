@@ -1,4 +1,3 @@
-
 import { CreateUserDto } from './dto/create-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
 
@@ -15,11 +14,10 @@ export class UsersRepositories {
   }
 
   findOne(id: number) {
-    return this.users.find(u => u.id === id);
+    return this.users.find(user => user.id == id);
   }
 
   update(id: number, updateUserDto: UpdateUserDto) {
-    //users.find(u => u.id === id).update(updateUserDto);
     const userIndex = this.users.findIndex(user => user.id == id);
     this.users[userIndex] = updateUserDto;
   }
